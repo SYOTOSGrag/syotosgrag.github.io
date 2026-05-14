@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">Social Analytics platform feature board</title>
+  <desc id="desc">A crisp dashboard-style feature board showing engagement analytics, posting recommendations, content performance, workflow steps, and benefits.</desc>
+  <defs>
+    <linearGradient id="canvas" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#d9f7ff"/>
+      <stop offset="0.35" stop-color="#ffd6f1"/>
+      <stop offset="0.72" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dbfff3"/>
+    </linearGradient>
+    <linearGradient id="nav" x1="0" x2="1">
+      <stop offset="0" stop-color="#3157f7"/>
+      <stop offset="1" stop-color="#7a4df3"/>
+    </linearGradient>
+    <linearGradient id="tealBlue" x1="0" x2="1">
+      <stop offset="0" stop-color="#3157f7"/>
+      <stop offset="1" stop-color="#00a99d"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#12212b" flood-opacity="0.12"/>
+    </filter>
+    <style>
+      .font { font-family: Inter, Arial, sans-serif; }
+      .title { fill: #12212b; font-size: 32px; font-weight: 900; }
+      .small { fill: #65737f; font-size: 13px; font-weight: 700; }
+      .tiny { fill: #65737f; font-size: 11px; font-weight: 700; }
+      .label { fill: #12212b; font-size: 14px; font-weight: 900; }
+      .value { fill: #12212b; font-size: 26px; font-weight: 900; }
+      .white { fill: #ffffff; }
+    </style>
+  </defs>
+  <rect width="1200" height="780" fill="url(#canvas)"/>
+  <rect x="20" y="20" width="1160" height="740" rx="24" fill="#ffffff" opacity="0.96" filter="url(#soft)"/>
+  <text x="600" y="70" text-anchor="middle" class="font title">Social Analytics Platform</text>
+  <text x="600" y="96" text-anchor="middle" class="font small" fill="#3157f7">DATA-DRIVEN INSIGHTS. SMARTER CONTENT. STRONGER GROWTH.</text>
+
+  <g transform="translate(50 120)">
+    <rect width="205" height="252" rx="14" fill="#f7f9fb" stroke="#dce5ea"/>
+    <rect width="205" height="44" rx="14" fill="url(#nav)"/>
+    <text x="16" y="28" class="font white" font-size="14" font-weight="900">1. Platform Purpose</text>
+    <text x="16" y="68" class="font label">The platform helps creators</text>
+    <text x="16" y="87" class="font small">understand performance and</text>
+    <text x="16" y="104" class="font small">improve content with clear</text>
+    <text x="16" y="121" class="font small">recommendations.</text>
+    <text x="16" y="154" class="font label">Key features</text>
+    <g transform="translate(16 174)">
+      <circle cx="10" cy="10" r="10" fill="#edf4ff"/><path d="M5 12l4 4 8-12" fill="none" stroke="#3157f7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="28" y="14" class="font tiny">Engagement analytics</text>
+    </g>
+    <g transform="translate(16 207)">
+      <circle cx="10" cy="10" r="10" fill="#e7f8f5"/><path d="M10 4v7l5 3" fill="none" stroke="#00a99d" stroke-width="3" stroke-linecap="round"/>
+      <text x="28" y="14" class="font tiny">Posting recommendations</text>
+    </g>
+    <g transform="translate(16 240)">
+      <circle cx="10" cy="10" r="10" fill="#fff1ea"/><path d="M4 14h12M4 9h12M4 5h12" stroke="#f06a4d" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="28" y="14" class="font tiny">Content performance panel</text>
+    </g>
+  </g>
+
+  <g transform="translate(282 120)">
+    <rect width="642" height="252" rx="14" fill="#f7f9fb" stroke="#dce5ea"/>
+    <text x="22" y="34" class="font label">Welcome back, Creator</text>
+    <text x="22" y="55" class="font tiny">Your best-performing patterns are ready to review.</text>
+    <g transform="translate(22 76)">
+      <rect width="136" height="62" rx="12" fill="#ffffff" stroke="#dce5ea"/>
+      <text x="14" y="24" class="font tiny">Total reach</text>
+      <text x="14" y="50" class="font value">128K</text>
+    </g>
+    <g transform="translate(174 76)">
+      <rect width="136" height="62" rx="12" fill="#ffffff" stroke="#dce5ea"/>
+      <text x="14" y="24" class="font tiny">Engagement</text>
+      <text x="14" y="50" class="font value">25.6K</text>
+    </g>
+    <g transform="translate(326 76)">
+      <rect width="136" height="62" rx="12" fill="#ffffff" stroke="#dce5ea"/>
+      <text x="14" y="24" class="font tiny">Profile visits</text>
+      <text x="14" y="50" class="font value">46.2K</text>
+    </g>
+    <g transform="translate(478 76)">
+      <rect width="136" height="62" rx="12" fill="#ffffff" stroke="#dce5ea"/>
+      <text x="14" y="24" class="font tiny">Impressions</text>
+      <text x="14" y="50" class="font value">312K</text>
+    </g>
+    <g transform="translate(22 162)">
+      <rect width="292" height="72" rx="12" fill="#ffffff" stroke="#dce5ea"/>
+      <text x="14" y="24" class="font tiny">Engagement over time</text>
+      <path d="M18 56C50 34 76 42 104 28s52-16 84 10 64 28 94 2" fill="none" stroke="#3157f7" stroke-width="4" stroke-linecap="round"/>
+      <path d="M18 62C58 52 82 56 118 48s60-24 94-8 48 20 70 8" fill="none" stroke="#00a99d" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(336 162)">
+      <rect width="126" height="72" rx="12" fill="#ffffff" stroke="#dce5ea"/>
+      <text x="14" y="24" class="font tiny">Engagement by type</text>
+      <circle cx="62" cy="48" r="22" fill="none" stroke="#edf4ff" stroke-width="11"/>
+      <path d="M62 26a22 22 0 0 1 19 33" fill="none" stroke="#3157f7" stroke-width="11"/>
+      <path d="M81 59a22 22 0 0 1-38 0" fill="none" stroke="#f06a4d" stroke-width="11"/>
+      <path d="M43 59a22 22 0 0 1 19-33" fill="none" stroke="#00a99d" stroke-width="11"/>
+    </g>
+    <g transform="translate(484 162)">
+      <rect width="130" height="72" rx="12" fill="#ffffff" stroke="#dce5ea"/>
+      <text x="14" y="24" class="font tiny">Best time to post</text>
+      <g transform="translate(16 34)">
+        <rect width="13" height="13" fill="#edf4ff"/><rect x="17" width="13" height="13" fill="#cbd8ff"/><rect x="34" width="13" height="13" fill="#95a9ff"/><rect x="51" width="13" height="13" fill="#3157f7"/>
+        <rect y="17" width="13" height="13" fill="#e7f8f5"/><rect x="17" y="17" width="13" height="13" fill="#8de7dc"/><rect x="34" y="17" width="13" height="13" fill="#00a99d"/><rect x="51" y="17" width="13" height="13" fill="#007c75"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(950 120)">
+    <rect width="200" height="252" rx="14" fill="#f7f9fb" stroke="#dce5ea"/>
+    <text x="16" y="34" class="font label">Best next action</text>
+    <rect x="16" y="54" width="168" height="76" rx="12" fill="#ffffff" stroke="#dce5ea"/>
+    <rect x="28" y="66" width="56" height="40" rx="8" fill="#d8efff"/>
+    <path d="M34 99l18-18 10 9 14-18" fill="none" stroke="#3157f7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="96" y="78" class="font tiny">Post a short</text>
+    <text x="96" y="94" class="font tiny">video between</text>
+    <text x="96" y="110" class="font tiny">6 PM and 8 PM.</text>
+    <rect x="16" y="146" width="168" height="86" rx="12" fill="#ffffff" stroke="#dce5ea"/>
+    <text x="30" y="170" class="font tiny">Suggested next steps</text>
+    <circle cx="31" cy="192" r="6" fill="#00a99d"/><text x="46" y="197" class="font tiny">Repeat visual hook</text>
+    <circle cx="31" cy="214" r="6" fill="#3157f7"/><text x="46" y="219" class="font tiny">Use stronger caption</text>
+  </g>
+
+  <g transform="translate(50 398)">
+    <rect width="205" height="132" rx="14" fill="#f7f9fb" stroke="#dce5ea"/>
+    <rect width="205" height="40" rx="14" fill="#12212b"/>
+    <text x="16" y="26" class="font white" font-size="13" font-weight="900">2. How the platform works</text>
+    <text x="16" y="66" class="font small">The system follows a simple</text>
+    <text x="16" y="84" class="font small">process: connect accounts,</text>
+    <text x="16" y="102" class="font small">collect performance data, and</text>
+    <text x="16" y="120" class="font small">turn patterns into guidance.</text>
+  </g>
+
+  <g transform="translate(282 398)">
+    <rect width="642" height="132" rx="14" fill="#f7f9fb" stroke="#dce5ea"/>
+    <g transform="translate(18 22)">
+      <rect width="104" height="88" rx="12" fill="#ffffff" stroke="#dce5ea"/>
+      <circle cx="52" cy="34" r="18" fill="#edf4ff"/>
+      <path d="M43 35h18M52 26v18" stroke="#3157f7" stroke-width="4" stroke-linecap="round"/>
+      <text x="52" y="70" text-anchor="middle" class="font tiny">Connect</text>
+    </g>
+    <path d="M140 66h48" stroke="#b6c5cb" stroke-width="4" stroke-linecap="round"/><path d="M178 55l14 11-14 11" fill="none" stroke="#b6c5cb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(202 22)">
+      <rect width="104" height="88" rx="12" fill="#ffffff" stroke="#dce5ea"/>
+      <circle cx="52" cy="34" r="18" fill="#e7f8f5"/>
+      <path d="M40 42c10-18 20-18 32 0" fill="none" stroke="#00a99d" stroke-width="4" stroke-linecap="round"/>
+      <text x="52" y="70" text-anchor="middle" class="font tiny">Collect data</text>
+    </g>
+    <path d="M324 66h48" stroke="#b6c5cb" stroke-width="4" stroke-linecap="round"/><path d="M362 55l14 11-14 11" fill="none" stroke="#b6c5cb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(386 22)">
+      <rect width="104" height="88" rx="12" fill="#ffffff" stroke="#dce5ea"/>
+      <circle cx="52" cy="34" r="18" fill="#fff1ea"/>
+      <path d="M40 43l10-12 8 8 10-16" fill="none" stroke="#f06a4d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="52" y="70" text-anchor="middle" class="font tiny">Find patterns</text>
+    </g>
+    <path d="M508 66h48" stroke="#b6c5cb" stroke-width="4" stroke-linecap="round"/><path d="M546 55l14 11-14 11" fill="none" stroke="#b6c5cb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(570 22)">
+      <rect width="54" height="88" rx="12" fill="#ffffff" stroke="#dce5ea"/>
+      <circle cx="27" cy="34" r="18" fill="#f8f0ff"/>
+      <path d="M18 40h18M27 25v30" stroke="#7a4df3" stroke-width="4" stroke-linecap="round"/>
+      <text x="27" y="70" text-anchor="middle" class="font tiny">Act</text>
+    </g>
+  </g>
+
+  <g transform="translate(950 398)">
+    <rect width="200" height="132" rx="14" fill="#12212b"/>
+    <text x="16" y="30" class="font white" font-size="14" font-weight="900">3. Benefits</text>
+    <text x="16" y="58" class="font white" font-size="12" font-weight="700" opacity="0.8">Better creator choices</text>
+    <text x="16" y="80" class="font white" font-size="12" font-weight="700" opacity="0.8">Stronger engagement</text>
+    <text x="16" y="102" class="font white" font-size="12" font-weight="700" opacity="0.8">More platform activity</text>
+  </g>
+
+  <g transform="translate(50 558)">
+    <rect width="1100" height="132" rx="14" fill="#f7f9fb" stroke="#dce5ea"/>
+    <text x="20" y="34" class="font label">Key Benefits</text>
+    <g transform="translate(30 58)">
+      <circle cx="24" cy="24" r="24" fill="#edf4ff"/><path d="M14 27c10-18 21-18 30 0" fill="none" stroke="#3157f7" stroke-width="4" stroke-linecap="round"/>
+      <text x="62" y="18" class="font label">Creator-friendly insight</text>
+      <text x="62" y="38" class="font tiny">Clear analytics without confusion</text>
+    </g>
+    <g transform="translate(302 58)">
+      <circle cx="24" cy="24" r="24" fill="#e7f8f5"/><path d="M14 31l8-12 8 8 8-16" fill="none" stroke="#00a99d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="62" y="18" class="font label">Better decisions</text>
+      <text x="62" y="38" class="font tiny">Recommendations replace guesswork</text>
+    </g>
+    <g transform="translate(574 58)">
+      <circle cx="24" cy="24" r="24" fill="#fff1ea"/><path d="M16 33V18m10 15V11m10 22V24" stroke="#f06a4d" stroke-width="4" stroke-linecap="round"/>
+      <text x="62" y="18" class="font label">Stronger content</text>
+      <text x="62" y="38" class="font tiny">Repeat what performs best</text>
+    </g>
+    <g transform="translate(840 58)">
+      <circle cx="24" cy="24" r="24" fill="#f8f0ff"/><path d="M14 28l8 8 16-24" fill="none" stroke="#7a4df3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="62" y="18" class="font label">Platform growth</text>
+      <text x="62" y="38" class="font tiny">Higher satisfaction and activity</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="760" viewBox="0 0 980 760" role="img" aria-labelledby="title desc">
+  <title id="title">Social Media Analytics Platform feasibility and cost</title>
+  <desc id="desc">Six-month timeline and project budget estimate.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef8f6"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" x2="1">
+      <stop offset="0" stop-color="#3157f7"/>
+      <stop offset="1" stop-color="#00a99d"/>
+    </linearGradient>
+  </defs>
+  <rect width="980" height="760" rx="30" fill="url(#bg)"/>
+  <text x="56" y="76" fill="#12212b" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="900">Feasibility Snapshot</text>
+  <text x="56" y="112" fill="#65737f" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Six-month build plan with a $211,000 estimated project cost.</text>
+  <g transform="translate(56 166)">
+    <rect width="868" height="104" rx="18" fill="#12212b"/>
+    <text x="30" y="42" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">Estimated total</text>
+    <text x="30" y="82" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="900">$211,000</text>
+    <text x="318" y="62" fill="#b6c5cb" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">Social Media Analytics Platform budget supports the team, tools, and testing.</text>
+  </g>
+  <g transform="translate(56 326)">
+    <text x="0" y="0" fill="#12212b" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="900">Timeline phases</text>
+    <line x1="22" y1="70" x2="808" y2="70" stroke="#dce5ea" stroke-width="12" stroke-linecap="round"/>
+    <line x1="22" y1="70" x2="808" y2="70" stroke="url(#bar)" stroke-width="12" stroke-linecap="round"/>
+    <g font-family="Inter, Arial, sans-serif" text-anchor="middle" font-size="15" font-weight="900" fill="#12212b">
+      <text x="22" y="128">Research</text>
+      <text x="218" y="128">Design</text>
+      <text x="414" y="128">Develop</text>
+      <text x="610" y="128">Test</text>
+      <text x="808" y="128">Launch</text>
+    </g>
+  </g>
+  <g transform="translate(56 514)" font-family="Inter, Arial, sans-serif">
+    <text x="0" y="0" fill="#12212b" font-size="24" font-weight="900">Budget emphasis</text>
+    <rect y="34" width="868" height="36" rx="18" fill="#e8eef1"/>
+    <rect y="34" width="610" height="36" rx="18" fill="#3157f7"/>
+    <text x="20" y="59" fill="#ffffff" font-size="15" font-weight="900">Team and analytics expertise</text>
+    <rect y="90" width="868" height="36" rx="18" fill="#e8eef1"/>
+    <rect y="90" width="128" height="36" rx="18" fill="#00a99d"/>
+    <text x="20" y="115" fill="#ffffff" font-size="15" font-weight="900">Infrastructure</text>
+    <rect y="146" width="868" height="36" rx="18" fill="#e8eef1"/>
+    <rect y="146" width="90" height="36" rx="18" fill="#f06a4d"/>
+    <text x="20" y="171" fill="#ffffff" font-size="15" font-weight="900">Testing</text>
+  </g>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Social Media Analytics Platform hero dashboard</title>
+  <desc id="desc">A polished analytics dashboard mockup with engagement charts, creator metrics, and recommendation cards.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eaf7ff"/>
+      <stop offset="0.45" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f6eeff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" x2="1">
+      <stop offset="0" stop-color="#3157f7"/>
+      <stop offset="1" stop-color="#00a99d"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="28" stdDeviation="32" flood-color="#12212b" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="#0f1b24"/>
+  <circle cx="1320" cy="140" r="220" fill="#7a4df3" opacity="0.72"/>
+  <circle cx="1220" cy="840" r="260" fill="#00a99d" opacity="0.72"/>
+  <circle cx="860" cy="120" r="180" fill="#f06a4d" opacity="0.72"/>
+  <g filter="url(#shadow)" transform="translate(455 128) rotate(-3 480 350)">
+    <rect width="930" height="650" rx="28" fill="url(#bg)"/>
+    <rect width="930" height="86" rx="28" fill="#12212b"/>
+    <circle cx="42" cy="43" r="10" fill="#f06a4d"/>
+    <circle cx="72" cy="43" r="10" fill="#e2a83d"/>
+    <circle cx="102" cy="43" r="10" fill="#00a99d"/>
+    <text x="142" y="38" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">Social Media Analytics Platform</text>
+    <text x="142" y="62" fill="#b6c5cb" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">Creator Command Center</text>
+    <g transform="translate(48 126)">
+      <rect width="188" height="104" rx="14" fill="#ffffff" stroke="#dce5ea"/>
+      <text x="18" y="34" fill="#65737f" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">Audience reach</text>
+      <text x="18" y="72" fill="#12212b" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="900">128K</text>
+    </g>
+    <g transform="translate(260 126)">
+      <rect width="188" height="104" rx="14" fill="#ffffff" stroke="#dce5ea"/>
+      <text x="18" y="34" fill="#65737f" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">Engagement</text>
+      <text x="18" y="72" fill="#12212b" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="900">25.6K</text>
+    </g>
+    <g transform="translate(472 126)">
+      <rect width="188" height="104" rx="14" fill="#ffffff" stroke="#dce5ea"/>
+      <text x="18" y="34" fill="#65737f" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">Profile visits</text>
+      <text x="18" y="72" fill="#12212b" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="900">46.2K</text>
+    </g>
+    <g transform="translate(684 126)">
+      <rect width="188" height="104" rx="14" fill="#ffffff" stroke="#dce5ea"/>
+      <text x="18" y="34" fill="#65737f" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">Impressions</text>
+      <text x="18" y="72" fill="#12212b" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="900">312K</text>
+    </g>
+    <g transform="translate(48 268)">
+      <rect width="526" height="250" rx="16" fill="#ffffff" stroke="#dce5ea"/>
+      <text x="24" y="34" fill="#12212b" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="900">Engagement Over Time</text>
+      <path d="M42 188h438M42 144h438M42 100h438M42 56h438" stroke="#e9eff2" stroke-width="2"/>
+      <path d="M48 172C100 126 128 138 170 104S236 68 284 108s76 64 124 24 72-74 112-46" fill="none" stroke="#3157f7" stroke-width="7" stroke-linecap="round"/>
+      <path d="M48 198C98 184 128 178 176 188s82 10 130-18 80-42 124-22 68 30 96 10" fill="none" stroke="#00a99d" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(602 268)">
+      <rect width="270" height="250" rx="16" fill="#ffffff" stroke="#dce5ea"/>
+      <text x="24" y="34" fill="#12212b" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="900">Best Next Action</text>
+      <rect x="26" y="64" width="218" height="44" rx="10" fill="#edf4ff"/>
+      <text x="44" y="92" fill="#3157f7" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900">Post between 6-8 PM</text>
+      <rect x="26" y="122" width="218" height="44" rx="10" fill="#e7f8f5"/>
+      <text x="44" y="150" fill="#008d84" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900">Repeat short video format</text>
+      <rect x="26" y="180" width="218" height="44" rx="10" fill="#fff1ea"/>
+      <text x="44" y="208" fill="#c45137" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900">Use visual hook first</text>
+    </g>
+    <rect x="48" y="552" width="824" height="54" rx="14" fill="url(#blue)"/>
+    <text x="72" y="587" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">Audience behavior translated into practical creator strategy</text>
+  </g>
+</svg>
