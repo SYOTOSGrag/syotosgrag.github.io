@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Social Media Analytics Platform team video poster</title>
+  <desc id="desc">A clean poster image for the team video.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#12212b"/>
+      <stop offset="0.55" stop-color="#243044"/>
+      <stop offset="1" stop-color="#3157f7"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#00a99d"/>
+      <stop offset="1" stop-color="#7a4df3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <circle cx="1040" cy="120" r="210" fill="#00a99d" opacity="0.28"/>
+  <circle cx="190" cy="630" r="240" fill="#f06a4d" opacity="0.22"/>
+  <rect x="110" y="118" width="1060" height="484" rx="26" fill="#ffffff" opacity="0.1" stroke="#ffffff" stroke-opacity="0.22"/>
+
+  <text x="150" y="220" fill="#8ff4df" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900">TEAM VIDEO</text>
+  <text x="150" y="286" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="46" font-weight="900">Meet the Social Media Analytics Platform Team</text>
+  <text x="150" y="342" fill="#d9e5ea" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Jennifer Abreu • Yaimin Sosa • Sharp Uddin • Kevin Zhuo</text>
+
+  <g transform="translate(150 410)">
+    <rect width="340" height="82" rx="14" fill="url(#accent)"/>
+    <polygon points="96,22 96,60 136,41" fill="#ffffff"/>
+    <text x="166" y="51" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="900">Play video</text>
+  </g>
+</svg>
