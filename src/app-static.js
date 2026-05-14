@@ -109,8 +109,7 @@
       target: ["M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z", "M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z", "M12 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"],
       shield: ["M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z", "M9 12l2 2 4-5"],
       spark: ["M12 2l1.4 5.2L18 9l-4.6 1.8L12 16l-1.4-5.2L6 9l4.6-1.8Z", "M19 15l.7 2.3L22 18l-2.3.7L19 21l-.7-2.3L16 18l2.3-.7Z"],
-      users: ["M16 19c0-2.2-1.8-4-4-4s-4 1.8-4 4", "M12 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z", "M22 19c0-1.7-1.1-3.2-2.7-3.8", "M17 3.4a4 4 0 0 1 0 7.2"],
-      video: ["M4 7a3 3 0 0 1 3-3h7a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3Z", "M17 10l4-2v8l-4-2"]
+      users: ["M16 19c0-2.2-1.8-4-4-4s-4 1.8-4 4", "M12 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z", "M22 19c0-1.7-1.1-3.2-2.7-3.8", "M17 3.4a4 4 0 0 1 0 7.2"]
     };
 
     return h(
@@ -161,8 +160,8 @@
               goTo("/", setPath);
             }
           },
-          h("span", { className: "brand-mark" }, "SM"),
-          h("span", null, "Social Media Analytics Platform")
+          h("span", { className: "brand-mark" }, "SA"),
+          h("span", null, "Social Media Anayltics Platform")
         ),
         h(
           "nav",
@@ -430,7 +429,7 @@
         h(
           "figure",
           { className: "feature-board-frame" },
-          h("img", { src: "assets/feature-board-renamed.svg", alt: "Clean feature board for the Social Media Analytics Platform showing dashboard metrics, key features, workflow, and benefits" }),
+          h("img", { src: "assets/feature-board.svg", alt: "Clean feature board for the Social Media Analytics Platform showing dashboard metrics, key features, workflow, and benefits" }),
           h("figcaption", null, "Feature board recreated from the screenshot concept with proposal-based wording.")
         )
       ),
@@ -534,7 +533,7 @@
               )
             )
           ),
-          h("img", { className: "timeline-image", src: "assets/timeline-cost-renamed.svg", alt: "Six month feasibility and cost visual for Social Media Analytics Platform" })
+          h("img", { className: "timeline-image", src: "assets/timeline-cost.svg", alt: "Six month feasibility and cost visual for Social Media Analytics Platform" })
         )
       ),
       h(
@@ -582,7 +581,7 @@
         "section",
         { className: "cta-band final" },
         h("div", null,
-          h("h2", null, "Social Media Analytics Platform is practical, useful, and ready to pitch."),
+          h("h2", null, "Social Analytics is practical, useful, and ready to pitch."),
           h("p", null, "The platform addresses a real gap in the social media industry by helping creators understand their audience, improve content quality, and create value for the platforms they use.")
         )
       )
@@ -646,8 +645,8 @@
         { className: "band muted team-video-section" },
         h(SectionHeader, {
           eyebrow: "Team video",
-          title: "Our roles and project work",
-          body: "The video below introduces the team members and explains how our work came together for the final project."
+          title: "How the platform works",
+          body: "The video below explains how our social media analytics platform works and how it turns social media data into clearer insights."
         }),
         h(
           "div",
@@ -657,10 +656,10 @@
             {
               controls: true,
               playsInline: true,
-              preload: "none",
+              preload: "metadata",
               poster: "assets/team-video-poster-renamed.svg"
             },
-            h("source", { src: "assets/videos/team-video.mov", type: "video/quicktime" }),
+            h("source", { src: "assets/videos/team-video.mp4", type: "video/mp4" }),
             "Your browser does not support this video format."
           )
         )

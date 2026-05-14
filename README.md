@@ -1,17 +1,14 @@
-# Social Media Analytics Platform Static Website
+# Social Analytics Static Website
 
-This is the no-server version of the Social Media Analytics Platform website.
+This is the no-server version of the Social Analytics website.
 
 Open `index.html` by double-clicking it. No Node.js server is required.
 
-Navigation uses regular HTML files:
+Navigation uses hash links, so pages look like:
 
-- `index.html`
-- `problem.html`
-- `solution.html`
-- `feasibility.html`
-- `team.html`
+- `index.html#/`
+- `index.html#/problem`
+- `index.html#/solution`
+- `index.html#/feasibility`
 
-The team video is loaded from `assets/videos/team-video.mp4`, so keep the `assets` folder with the HTML files when moving or uploading the site.
-
-The original `.mov` video was converted/remuxed to `.mp4` because Chrome and many Windows browsers handle MP4 video more reliably inside an HTML `<video>` tag. The video uses `preload="metadata"`, so the browser only loads basic video information before someone presses play.
+Team page/video: The Teams section is built into `src/app-static.js` and is available at `#/team`. The video file is `assets/videos/team-video.mp4`.
