@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
-  <title id="title">Social Analytics hero dashboard</title>
+  <title id="title">Social Media Analytics Platform hero dashboard</title>
   <desc id="desc">A polished analytics dashboard mockup with engagement charts, creator metrics, and recommendation cards.</desc>
   <defs>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
@@ -27,7 +27,7 @@
     <circle cx="42" cy="43" r="10" fill="#f06a4d"/>
     <circle cx="72" cy="43" r="10" fill="#e2a83d"/>
     <circle cx="102" cy="43" r="10" fill="#00a99d"/>
-    <text x="142" y="50" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800">Social Analytics Command Center</text>
+    <text x="142" y="50" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800">Social Media Analytics Platform Command Center</text>
     <g transform="translate(48 126)">
       <rect width="188" height="104" rx="14" fill="#ffffff" stroke="#dce5ea"/>
       <text x="18" y="34" fill="#65737f" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">Audience reach</text>

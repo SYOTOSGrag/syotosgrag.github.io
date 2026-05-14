@@ -161,7 +161,7 @@
             }
           },
           h("span", { className: "brand-mark" }, "SA"),
-          h("span", null, "Social Media Anayltics Platform")
+          h("span", null, "Social Media Analytics Platform")
         ),
         h(
           "nav",
@@ -581,7 +581,7 @@
         "section",
         { className: "cta-band final" },
         h("div", null,
-          h("h2", null, "Social Analytics is practical, useful, and ready to pitch."),
+          h("h2", null, "Social Media Analytics Platform is practical, useful, and ready to pitch."),
           h("p", null, "The platform addresses a real gap in the social media industry by helping creators understand their audience, improve content quality, and create value for the platforms they use.")
         )
       )
@@ -646,7 +646,7 @@
         h(SectionHeader, {
           eyebrow: "Team video",
           title: "How the platform works",
-          body: "The video below explains how our social media analytics platform works and how it turns social media data into clearer insights."
+          body: "The video below explains how our Social Media Analytics Platform works and how it turns social media data into clearer insights."
         }),
         h(
           "div",

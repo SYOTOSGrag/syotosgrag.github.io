@@ -1,6 +1,6 @@
-# Social Analytics Static Website
+# Social Media Analytics Platform Static Website
 
-This is the no-server version of the Social Analytics website.
+This is the no-server version of the Social Media Analytics Platform website.
 
 Open `index.html` by double-clicking it. No Node.js server is required.
 
